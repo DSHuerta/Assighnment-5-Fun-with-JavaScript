@@ -33,7 +33,8 @@ function moo() {
 
     // console.log(words);
 
-    // Add -Moo to the last non empty word in this sentence.
+    // Add -Moo to the last non empty word in this sentence however doesnt say to uppercase -Moo 
+    // as it wasnt in the text-area by default so im ommiting it from being uppercased when adding it.
     for (let j = words.length - 1; j >= 0; j--) {
       if (words[j].trim() !== "") {
         words[j] += "-Moo";
