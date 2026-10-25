@@ -2,7 +2,7 @@
 
 // Set text within text area to 24pt
 function makeBigger() {
-  document.getElementById("text-area").style.fontSize = "24pt";
+  document.getElementById("text-area").style.fontSize = "24pt"; // Mentions 4em (Scales based of base pt font) but specifically sais to use 24pt
 }
 
 // Toggles the styles to the text area text when Called
